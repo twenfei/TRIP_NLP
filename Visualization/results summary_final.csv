@@ -1,0 +1,64 @@
+model ,probe_model_ha,validation_accuracy_ha,"Validation results_ha
+consistency",validation_verifiability_ha,"Test results_ha
+accuracy","Test results_ha
+consistency","Test results_ha
+verifiability","Test results_ha
+f1",probe_model _hv,validation_accuracy_hv,validation_consistency_hv,validation_verifiability_hv,"Test results_hv
+ accuracy","Test results_hv
+consistency","Test results_hv
+verifiability","Test results_hv
+f1",Huggingface ,Paper
+"roberta-large
+AdamW","roberta-large_
+cloze_1_1e-05_5_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.767080745,0.276397516,0.093167702,0.757834758,0.253561254,0.082621083,0.757330514,"roberta-large_
+cloze_1_1e-05_8_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.729813665,0.220496894,0.096273292,0.774928775,0.205128205,0.085470085,0.774899541,https://github.com/sled-group/Verifiable-Coherent-NLU,https://arxiv.org/abs/2109.04947
+"roberta-large
+Adam","roberta-large_
+cloze_1_1e-05_9_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.770186335,0.226708075,0.093167702,0.763532764,0.216524217,0.068376068,0.763409861,"roberta-large_
+cloze_1_1e-05_4_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.760869565,0.257763975,0.111801242,0.754985755,0.219373219,0.051282051,0.754983766,,
+"roberta-large
+SGD",,0.47515528,,0,,,,,,,,0,,,,,,
+"adapter
+CosmosQA Roberta-base","roberta-base_
+cloze_1_1e-05_8_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.751552795,0.239130435,0.049689441,0.763532764,0.202279202,0.037037037,0.763532764,"roberta-base_
+cloze_1_1e-05_9_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.717391304,0.251552795,0.062111801,0.712250712,0.17948718,0.042735043,0.712166606,https://huggingface.co/AdapterHub/roberta-base-pf-cosmos_qa,https://arxiv.org/abs/2104.08247
+BoolQ Roberta-base,"shahrukhx01-roberta-base-boolq_
+cloze_1_1e-05_6_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.732919255,0.223602485,0.037267081,0.737891738,0.173789174,0.042735043,0.73778745,"shahrukhx01-roberta-base-boolq_
+cloze_1_1e-05_9_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.723602485,0.189440994,0.059006211,0.715099715,0.148148148,0.037037037,0.715078901,https://huggingface.co/shahrukhx01/roberta-base-boolq,https://arxiv.org/abs/1905.10044
+"Hellaswag Roberta-large
+lr = 1e-5","prajjwal1-roberta_hellaswag_
+cloze_1_1e-05_4_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.767080745,0.263975155,0.080745342,0.732193732,0.199430199,0.042735043,0.732174167,"prajjwal1-roberta_hellaswag_
+cloze_1_1e-05_5_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.757763975,0.282608696,0.124223603,0.766381766,0.259259259,0.096866097,0.766288814,https://huggingface.co/prajjwal1/roberta_hellaswag,https://arxiv.org/abs/1905.07830
+"Hellaswag Roberta-large
+lr = 1e-6","prajjwal1-roberta_hellaswag_
+cloze_1_1e-06_9_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.661490683,,0.00621118,,,,,"prajjwal1-roberta_hellaswag_
+cloze_1_1e-06_9_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.661490683,,0.00621118,,,,,,
+"Aristo Roberta-large 
+Fine Tuned on RACE","LIAMF-USP-aristo-roberta
+_cloze_1_1e-05_4_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.763975155,0.276397516,0.074534161,0.712250712,0.230769231,0.051282051,0.712016962,"LIAMF-USP-aristo-roberta_
+cloze_1_1e-05_8_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.757763975,0.263975155,0.093167702,0.783475784,0.196581197,0.062678063,0.783333333,,
+RACE Roberta-large,"LIAMF-USP-roberta-large-finetuned-race_
+cloze_1_1e-05_5_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.767080745,0.239130435,0.074534161,0.769230769,0.256410256,0.062678063,0.768960726,"LIAMF-USP-roberta-large-finetuned-race_
+cloze_1_1e-05_7_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.745341615,0.257763975,0.102484472,0.777777778,0.210826211,0.05982906,0.777732675,https://huggingface.co/LIAMF-USP/roberta-large-finetuned-race,https://www.cs.cmu.edu/~glai1/data/race/
+"adapter
+ART Roberta-base","roberta-base_
+cloze_1_1e-05_7_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits.",0.748447205,0.214285714,0.040372671,0.786324786,0.170940171,0.045584046,0.786324786,"roberta-base_
+cloze_1_1e-05_9_0.0-0.4-0.4-0.2-0.0_
+tiered_pipeline_lc_ablate_attributes_states-logits",0.720496894,0.236024845,0.046583851,0.703703704,0.182336182,0.03988604,0.703701299,https://huggingface.co/AdapterHub/roberta-base-pf-art,https://arxiv.org/pdf/1902.00751.pdf
