@@ -1,6 +1,9 @@
 # Final Project for EECS 595: Natural Langurage Processing
 Wenfei Tang, Juejue Wang
 
+Please see the link below for the original paper and code by Shane Storks:
+https://github.com/sled-group/Verifiable-Coherent-NLU
+
 ### Setting up the environment
 
 #### Part 1: use requirements.txt to create a conda environment
