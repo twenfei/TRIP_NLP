@@ -1,6 +1,7 @@
 # Final Project for EECS 595: Natural Langurage Processing
 Wenfei Tang, Juejue Wang
 
+Please see the uploaded EECS595_Final_Project.pdf for a detailed report.
 Please see the link below for the original paper and code by Shane Storks:
 https://github.com/sled-group/Verifiable-Coherent-NLU
 
